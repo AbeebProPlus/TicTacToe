@@ -1,1 +1,1 @@
-# TicTacToe
+# A game of tictactoe using javascript
