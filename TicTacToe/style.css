@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    background-color: #000;
+}
+
+.box{
+    background-color: grey;
+    width: 100%;
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3%;
+}
+.box-parent{
+    display: inline-grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    width: 60%;
+    height: 60%;
+    background-color: #fff;
+    gap: 3px 6px;
+    padding: 1%;
+}
+.toggle-box-parent{
+    border: 20px solid blue;
+   
+}
+.toggle-child-box-over {
+    background-color: green;
+}
+.game-header{
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
+
+.restart-btn{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 30px;
+}
+.winners-box{
+    background-color: gold;
+}
